@@ -1,5 +1,16 @@
 # LinkedIn Profile Extractor & Bulk Messenger
 
+## 🚀 Quick Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/RzLetsCode/linkedin-profile-extractor&env=NEXTAUTH_URL,NEXTAUTH_SECRET,LINKEDIN_CLIENT_ID,LINKEDIN_CLIENT_SECRET&envDescription=Required%20environment%20variables%20for%20LinkedIn%20OAuth&project-name=linkedin-profile-extractor)
+
+**Click the button above to deploy to Vercel in one click!**
+
+You'll need:
+1. LinkedIn Developer App credentials (Client ID & Secret)
+2. Generate a NextAuth secret: `openssl rand -base64 32`
+
+
 Complete LinkedIn OAuth integration for code2career_ai - Extract student/mentor profiles and send bulk messages.
 
 ## 🚀 Features
