@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "installCommand": "npm install",
+  "env": {
+    "LINKEDIN_CLIENT_ID": "@linkedin_client_id",
+    "LINKEDIN_CLIENT_SECRET": "@linkedin_client_secret",
+    "NEXTAUTH_URL": "@nextauth_url",
+    "NEXTAUTH_SECRET": "@nextauth_secret"
+  }
+}
